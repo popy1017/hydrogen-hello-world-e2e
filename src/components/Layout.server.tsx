@@ -31,7 +31,7 @@ export function Layout({ children } : { children: ReactNode}) {
           }`}
         >
           <div className="flex gap-12">
-            <Link className="font-bold" to="/">
+            <Link id="shop-name" className="font-bold" to="/">
               {shop.name}
             </Link>
           </div>
